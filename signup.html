@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* justify-content: center; */
+            background-color: white;
+            /* padding: 20px; */
+            /* border-radius: 8px; */
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+            /* width: 300px; */
+        }
+        .box{
+            border-radius: 10px;
+            border-style: solid;
+            width: 250px;
+            padding: 10px;
+            background-color:white;
+            h1{
+                font-size: 20px
+            }
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <div class="box">
+                <h1><strong>Create an Account</strong></h1>
+                <form>
+            
+                    <label for="fullname"><strong>Fullname:</strong></label>
+                    <input type="text" id="fullname" name="fullname" placeholder=""><br><br>
+                    <label for="Email"><strong>Email:</strong></label>
+                    <input type="text" id="Email" name="Email"><br><br>
+                    <label for="password"><strong>Password:</strong></label>
+                    <input type="pwd" id="password" name="Confirm Password"><br><br>
+                    <label for="Confirm Password"><strong>Confirm Password:</strong></label>
+                    <input type="text" id="pwd" name="Confirm Password" style="display:;"><br><br>
+                    <input type="submit" value="Sign up" style="margin-bottom: 15px;  background-color: #4CAF50; width: 250px; height: 20px;">
+            
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
